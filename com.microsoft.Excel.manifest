@@ -1,0 +1,1651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>pfm_version</key>
+    <real>1.2</real>
+    <key>pfm_domain</key>
+    <string>com.microsoft.Excel</string>
+    <key>pfm_description</key>
+    <string>Settings for Microsoft Excel</string>
+    <key>pfm_name</key>
+    <string>Excel</string>
+    <key>pfm_title</key>
+    <string>Microsoft Excel</string>
+    <key>pfm_subkeys</key>
+    <array>
+        <dict>
+            <key>pfm_description</key>
+            <string>Default Save Format:
+                52 - Excel 2008 Workbook (.xlsm)
+                55 - Excel 2008 Template (.xltx)
+                17 - Excel 97-2004 (.xlt)
+                6 - Comma Separated Value (.csv)
+                44 - Web Page (.htm)
+                46 - PDF
+                51 - Excel Binary WorkBook (.xlsb)
+                53 - Excel Macro Enabled Workbook (.xlsm)
+                54 - Excel Macro Enabled Template (.xltm)
+                45 - Excel 2004 XML Spreadsheet (.xml)
+                56 - Excel Add-in (.xlam)
+                18 - Excel 97 - 2004 Add-in (.xla)
+                4143 - Single File Web Page (.mht)
+                42 - UTF-16 Unicode Encoded Text (.txt)
+                4158 - Tab Delimited Text (.txt)
+                20 - Windows Formatted Text (.txt)
+                21 - MSDOS Formatted Text (.txt)
+                23 - Windows Comma Separated (.csv)
+                24 - MS-DOS Comma Separated (.csv)
+                36 - Space Delimited (.prn)
+                9 - Data Interchange Format (.dif)
+                2 - Symbolic Link (.slk)
+                39 - Excel 5.0/95 (.xls)
+            </string>
+            <key>pfm_name</key>
+            <string>2008\Default Save\Default Format</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - Default Save Format</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>52</integer>
+                    <integer>55</integer>
+                    <integer>17</integer>
+                    <integer>6</integer>
+                    <integer>44</integer>
+                    <integer>46</integer>
+                    <integer>51</integer>
+                    <integer>53</integer>
+                    <integer>54</integer>
+                    <integer>45</integer>
+                    <integer>56</integer>
+                    <integer>18</integer>
+                    <integer>4143</integer>
+                    <integer>42</integer>
+                    <integer>20</integer>
+                    <integer>21</integer>
+                    <integer>23</integer>
+                    <integer>24</integer>
+                    <integer>36</integer>
+                    <integer>9</integer>
+                    <integer>2</integer>
+                    <integer>39</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>52</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Default Save Format:
+                52 - Excel 2008 Workbook (.xlsm)
+                55 - Excel 2008 Template (.xltx)
+                17 - Excel 97-2004 (.xlt)
+                6 - Comma Separated Value (.csv)
+                44 - Web Page (.htm)
+                46 - PDF
+                51 - Excel Binary WorkBook (.xlsb)
+                53 - Excel Macro Enabled Workbook (.xlsm)
+                54 - Excel Macro Enabled Template (.xltm)
+                45 - Excel 2004 XML Spreadsheet (.xml)
+                56 - Excel Add-in (.xlam)
+                18 - Excel 97 - 2004 Add-in (.xla)
+                4143 - Single File Web Page (.mht)
+                42 - UTF-16 Unicode Encoded Text (.txt)
+                4158 - Tab Delimited Text (.txt)
+                20 - Windows Formatted Text (.txt)
+                21 - MSDOS Formatted Text (.txt)
+                23 - Windows Comma Separated (.csv)
+                24 - MS-DOS Comma Separated (.csv)
+                36 - Space Delimited (.prn)
+                9 - Data Interchange Format (.dif)
+                2 - Symbolic Link (.slk)
+                39 - Excel 5.0/95 (.xls)
+            </string>
+            <key>pfm_name</key>
+            <string>14\Default Save\Default Format</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Default Save Format</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>52</integer>
+                    <integer>55</integer>
+                    <integer>17</integer>
+                    <integer>6</integer>
+                    <integer>44</integer>
+                    <integer>46</integer>
+                    <integer>51</integer>
+                    <integer>53</integer>
+                    <integer>54</integer>
+                    <integer>45</integer>
+                    <integer>56</integer>
+                    <integer>18</integer>
+                    <integer>4143</integer>
+                    <integer>42</integer>
+                    <integer>20</integer>
+                    <integer>21</integer>
+                    <integer>23</integer>
+                    <integer>24</integer>
+                    <integer>36</integer>
+                    <integer>9</integer>
+                    <integer>2</integer>
+                    <integer>39</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>52</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Show ABC Balloon</string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\ACBalloonShow</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - Show ABC Balloon</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Show ABC Balloon</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\ACBalloonShow</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Show ABC Balloon</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Append DOS Extension</string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\AppendDOSExtension</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - Append DOS Extension</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Automatically Convert Date System</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\AutoConvertDate</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Automatically Convert Date System</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Auto Format Hyperlinks</string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\AutoFormatHyperlinks</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - Auto Format Hyperlinks</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Auto Format Hyperlinks</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\AutoFormatHyperlinks</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Auto Format Hyperlinks</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>AutoRecover Enabled</string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\AutoRecoverEnabled</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - AutoRecover Enabled</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>AutoRecover Enabled</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\AutoRecoverEnabled</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - AutoRecover Enabled</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Save auto recovery information every X minutes</string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\AutoRecoverTime</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - AutoRecover Save Interval</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>10</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Save auto recovery information every X minutes</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\AutoRecoverTime</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - AutoRecover Save Interval</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>10</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Automation</string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\Automation</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - Automation</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Automation</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\Automation</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Automation</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>AutoCheck for Carriage Return</string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\CRAutoCheck</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - AutoCheck for Carriage Return</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>AutoCheck for Carriage Return</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\CRAutoCheck</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - AutoCheck for Carriage Return</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Never Show Carraige Return</string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\CRNeverShow</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - Never Show Carraige Return</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Never Show Carraige Return</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\CRNeverShow</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Never Show Carraige Return</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>CharWaitTypeAhead</string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\CharWaitTypeAhead </string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - CharWaitTypeAhead</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>CharWaitTypeAhead</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\CharWaitTypeAhead </string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - CharWaitTypeAhead</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Default Size of the "Most Recently Used" files list.</string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\DefFileMRU</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - Default MRU Size</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>10</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Default Size of the "Most Recently Used" files list.</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\DefFileMRU</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Default MRU Size</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>10</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Default Chart</string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\Default Chart</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - Default Chart</string>
+            <key>pfm_type</key>
+            <string>string</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <string>Standard:1,1</string>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Default Chart</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\Default Chart</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Default Chart</string>
+            <key>pfm_type</key>
+            <string>string</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <string>Standard:1,1</string>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Should live preview be enabled?
+                0 - No
+                1 - Yes
+            </string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\EnableLivePreview</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Live Preview Enabled</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Enable background error checking.  Set to 1 to enable background error checking, set to 0 to disable background error checking.</string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\ErrChkBackground</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - Background Error Check</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Enable background error checking.  Set to 1 to enable background error checking, set to 0 to disable background error checking.</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\ErrChkBackground</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Background Error Check</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Set the color Excel uses to flag errors.  The default of 0 is Green.  Some possible settings are:
+                    0 - Automatic (Excel Green)
+                    3 - Red
+                    4 - Bright Green
+                    11 - Dark Blue
+                    41 - Light Blue
+                    46 - Orange
+            </string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\ErrChkIndiColor</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - Error Check Color</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Set the color Excel uses to flag errors.  The default of 0 is Green.  Some possible settings are:
+                    0 - Automatic (Excel Green)
+                    3 - Red
+                    4 - Bright Green
+                    11 - Dark Blue
+                    41 - Light Blue
+                    46 - Orange
+            </string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\ErrChkIndiColor</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Error Check Color</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>This 8 bit mask defines what kind of errors Excel will flag.  To turn on a specific error the bit for that error must be set to 0, to turn it on it must be set to one.  To turn on all error check you would set the mask value to 255.  To turn off all error checks, you would set the mask value to 0.  Info on specific errors can be seen below:
+                Bit 0 - Flag cells containing formulas that result in an error (Add 1 to your mask value)
+                Bit 1 - Flag formulas that refer to empty cells (add 2 to your mask value)
+                Bit 2 - Flag numbers formatted as text (Add 4 to your mask value) 
+                Bit 3 - Flag formulas that omit other cells in the region (Add 8 to your mask value)
+                Bit 4 - Flag formulas that are inconsistent with the formulas in adjoining cells (Add 16 to your mask value)
+                Bit 5 - Flag cells containing years represented as 2 digits (Add 32 to your mask value)
+                Bit 6 - Flag unlocked cells containing formulas (Add 64 to your mask Value)
+                Bit 7 - Flag unrecognized categories in ledge sheets (Add 128 to your mask value)
+            </string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\ErrChkMask</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - Error Check Mask</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>255</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>This 8 bit mask defines what kind of errors Excel will flag.  To turn on a specific error the bit for that error must be set to 0, to turn it on it must be set to one.  To turn on all error check you would set the mask value to 255.  To turn off all error checks, you would set the mask value to 0.  Info on specific errors can be seen below:
+                Bit 0 - Flag cells containing formulas that result in an error (Add 1 to your mask value)
+                Bit 1 - Flag formulas that refer to empty cells (add 2 to your mask value)
+                Bit 2 - Flag numbers formatted as text (Add 4 to your mask value) 
+                Bit 3 - Flag formulas that omit other cells in the region (Add 8 to your mask value)
+                Bit 4 - Flag formulas that are inconsistent with the formulas in adjoining cells (Add 16 to your mask value)
+                Bit 5 - Flag cells containing years represented as 2 digits (Add 32 to your mask value)
+                Bit 6 - Flag unlocked cells containing formulas (Add 64 to your mask Value)
+                Bit 7 - Flag unrecognized categories in ledge sheets (Add 128 to your mask value)
+            </string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\ErrChkMask</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Error Check Mask</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>255</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Extend List</string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\ExtendList</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - Extend List</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Extend List</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\ExtendList</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Extend List</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Formula Builder Size</string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\FormulaBuilderSize</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - Formula Builder Size</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>140</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Formula Builder Size</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\FormulaBuilderSize</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Formula Builder Size</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>140</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Auto Complete</string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\FunctionAutoComplete </string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - Auto Complete</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Auto Complete</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\FunctionAutoComplete </string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Auto Complete</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Type Ahead</string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\FunctionTypeAhead </string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - Type Ahead</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Type Ahead</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\FunctionTypeAhead </string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Type Ahead</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Hide Welcome Window</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\Hide Welcome Window</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Hide Welcome Window</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Should tables automatically expand as the user types?
+                0 - No
+                1 - Yes
+            </string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\ListAutoExpand</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Automatically Expand Tables While Typing</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+                <dict>
+            <key>pfm_description</key>
+            <string>Should formulas in tables auto-fill?
+                0 - No
+                1 - Yes
+            </string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\ListAutoCreateCalcCol</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Automatically Fill Formulas</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Start Maximized</string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\Maximized</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - Start Maximized</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Start Maximized</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\Maximized</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Start Maximized</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>The measurment unit to be used for the ruler bar:
+                 0 - Inches
+                 1 - Centimeters
+                 2 - Millimeters
+            </string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\MeasurementUnit</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - Measurement Unit</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+                    <integer>2</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>The measurment unit to be used for the ruler bar:
+                 0 - Inches
+                 1 - Centimeters
+                 2 - Millimeters
+            </string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\MeasurementUnit</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Measurement Unit</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+                    <integer>2</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>MoveEnterDir</string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\MoveEnterDir</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - MoveEnterDir</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>MoveEnterDir</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\MoveEnterDir</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - MoveEnterDir</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>MsoTbCust</string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\MsoTbCust</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - MsoTbCust</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>8</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>MsoTbCust</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\MsoTbCust</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - MsoTbCust</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>8</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Should the rulers be shown above and beside the spreadsheet in page layout view?
+                0 - No
+                1 - Yes
+            </string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\PLVRuler</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - Show Rulers In Page Layout View</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Should the rulers be shown above and beside the spreadsheet in page layout view?
+                0 - No
+                1 - Yes
+            </string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\PLVRuler</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Show Rulers In Page Layout View</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Customize Ribbon Appearance
+            1 - Green
+            2 - Graphite
+            </string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\RibbonGreen</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Customize Ribbon Appearance</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>1</integer>
+                    <integer>2</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>2</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Should the Ribbon be on?
+                0 - No
+                1 - Yes
+            </string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\RibbonShow</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Turn on Ribbon</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Should the ribbon expand when a workbook opens?
+                0 - No
+                1 - Yes
+            </string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\RibbonOpenAtStartUp</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Expand Ribbon When Workbook Opens</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Should the group titles be displayed?
+                0 - No
+                1 - Yes
+            </string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\RibbonShowGroupTitles</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Hide Group Titles</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Most Recently Used - Count</string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\SearchFunctionsMRUCount</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - Most Recently Used Count</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Most Recently Used - Count</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\SearchFunctionsMRUCount</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Most Recently Used - Count</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Preferred view for new sheets:
+               0 - Normal View
+               1 - Page Layout View
+            </string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\SheetView</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - SheetView</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Preferred view for new sheets:
+               0 - Normal View
+               1 - Page Layout View
+            </string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\SheetView</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - SheetView</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>WaitTypeAhead</string>
+            <key>pfm_name</key>
+            <string>2008\Microsoft Excel\WaitTypeAhead </string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - WaitTypeAhead</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>WaitTypeAhead</string>
+            <key>pfm_name</key>
+            <string>14\Microsoft Excel\WaitTypeAhead </string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - WaitTypeAhead</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Show Human Interface Toolbar.  This toolbar appears at the top of the document and allows the user to peform common actions in a more accessible way.</string>
+            <key>pfm_name</key>
+            <string>2008\Toolbars\Show_HIToolbar</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - Show Human Interface Toolbar</string>
+            <key>pfm_type</key>
+            <string>boolean</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Show Human Interface Toolbar.  This toolbar appears at the top of the document and allows the user to peform common actions in a more accessible way.</string>
+            <key>pfm_name</key>
+            <string>14\Toolbars\Show_HIToolbar</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Show Human Interface Toolbar</string>
+            <key>pfm_type</key>
+            <string>boolean</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>AutoTrigger Effect</string>
+            <key>pfm_name</key>
+            <string>2008\Toolbox:Effects\AutoTrigger</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - AutoTrigger Effect</string>
+            <key>pfm_type</key>
+            <string>boolean</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <false/>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>AutoTrigger Effect</string>
+            <key>pfm_name</key>
+            <string>14\Toolbox:Effects\AutoTrigger</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - AutoTrigger Effect</string>
+            <key>pfm_type</key>
+            <string>boolean</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <false/>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>FadeTransparency Effect</string>
+            <key>pfm_name</key>
+            <string>2008\Toolbox:Effects\FadeTransparency</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - FadeTransparency Effect</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>67</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>FadeTransparency Effect</string>
+            <key>pfm_name</key>
+            <string>14\Toolbox:Effects\FadeTransparency</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - FadeTransparency Effect</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>67</integer>
+        </dict>
+       <dict>
+            <key>pfm_description</key>
+            <string>TransitionEffect Effect</string>
+            <key>pfm_name</key>
+            <string>2008\Toolbox:Effects\TransitionEffect</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - TransitionEffect Effect</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>TransitionEffect Effect</string>
+            <key>pfm_name</key>
+            <string>14\Toolbox:Effects\TransitionEffect</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - TransitionEffect Effect</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>TriggerAction Effect</string>
+            <key>pfm_name</key>
+            <string>2008\Toolbox:Effects\TriggerAction</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - TriggerAction Effect</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>2</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>TriggerAction Effect</string>
+            <key>pfm_name</key>
+            <string>14\Toolbox:Effects\TriggerAction</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - TriggerAction Effect</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>2</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>TriggerDelay Effect</string>
+            <key>pfm_name</key>
+            <string>2008\Toolbox:Effects\TriggerDelay</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - TriggerDelay Effect</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>5</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>TriggerDelay Effect</string>
+            <key>pfm_name</key>
+            <string>14\Toolbox:Effects\TriggerDelay</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - TriggerDelay Effect</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>5</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>CSAnimation Effect</string>
+            <key>pfm_name</key>
+            <string>2008\Toolbox\CSAnimationEffect</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - CSAnimation Effect</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>CSAnimation Effect</string>
+            <key>pfm_name</key>
+            <string>14\Toolbox\CSAnimationEffect</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - CSAnimation Effect</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Toolbox Window Visible</string>
+            <key>pfm_name</key>
+            <string>2008\Toolbox\WindowVis</string>
+            <key>pfm_title</key>
+            <string>Excel 2008 - Toolbox Window Visible</string>
+            <key>pfm_type</key>
+            <string>boolean</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Toolbox Window Visible</string>
+            <key>pfm_name</key>
+            <string>14\Toolbox\WindowVis</string>
+            <key>pfm_title</key>
+            <string>Excel 2011 - Toolbox Window Visible</string>
+            <key>pfm_type</key>
+            <string>boolean</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <true/>
+        </dict>
+    </array>
+</dict>
+</plist>

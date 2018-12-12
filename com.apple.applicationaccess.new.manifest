@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>pfm_description</key>
+	<string>Application Access Settings</string>
+	<key>pfm_domain</key>
+	<string>com.apple.applicationaccess.new</string>
+	<key>pfm_name</key>
+	<string>Application Access</string>
+	<key>pfm_subkeys</key>
+	<array>
+		<dict>
+			<key>pfm_default</key>
+			<true/>
+			<key>pfm_description</key>
+			<string>Restrict which applications are allowed to launch.  This preference must be enabled if specific application whitelists or blacklists are being enforced, or if certain directories are whitelisted or blacklisted.  This setting only applies to Mac OS X 10.5 and later.</string>
+			<key>pfm_name</key>
+			<string>familyControlsEnabled</string>
+			<key>pfm_title</key>
+			<string>Restrict Applications</string>
+			<key>pfm_type</key>
+			<string>boolean</string>
+			<key>pfm_targets</key>
+            <array>
+                <string>user-managed</string>
+            </array>
+		</dict>
+		<dict>
+			<key>pfm_description</key>
+			<string>Application path whitelist union policy keys.</string>
+			<key>pfm_name</key>
+			<string>pathWhiteList-UPK</string>
+			<key>pfm_remove_duplicates</key>
+			<true/>
+			<key>pfm_targets</key>
+			<array>
+				<string>user-managed</string>
+				<string>system-managed</string>
+			</array>
+			<key>pfm_title</key>
+			<string>Application Path Whitelist Union Policy</string>
+			<key>pfm_type</key>
+			<string>union policy</string>
+			<key>pfm_upk_input_keys</key>
+			<array>
+				<string>pathWhiteList-Raw</string>
+			</array>
+			<key>pfm_upk_output_name</key>
+			<string>pathWhiteList</string>
+			<key>pfm_upk_output_type</key>
+			<string>array</string>
+		</dict>
+		<dict>
+			<key>pfm_description</key>
+			<string>Allow launching of Applications from only the specified folders.  Please note that when setting this preference, the "Restrict Applications" preference must also be set.  This setting only applies to Mac OS X 10.5 and later.</string>
+			<key>pfm_name</key>
+			<string>pathWhiteList-Raw</string>
+			<key>pfm_subkeys</key>
+			<array>
+				<dict>
+					<key>pfm_description</key>
+					<string>One directory.</string>
+					<key>pfm_name</key>
+					<string>directory</string>
+					<key>pfm_repetition_max</key>
+					<integer>-1</integer>
+					<key>pfm_repetition_min</key>
+					<integer>0</integer>
+					<key>pfm_title</key>
+					<string>Directory</string>
+					<key>pfm_type</key>
+					<string>string</string>
+					<key>pfm_default</key>
+					<string>/Applications/</string>
+				</dict>
+				<dict>
+					<key>pfm_description</key>
+					<string>One directory.</string>
+					<key>pfm_name</key>
+					<string>directory</string>
+					<key>pfm_repetition_max</key>
+					<integer>-1</integer>
+					<key>pfm_repetition_min</key>
+					<integer>0</integer>
+					<key>pfm_title</key>
+					<string>Directory</string>
+					<key>pfm_type</key>
+					<string>string</string>
+					<key>pfm_default</key>
+					<string>/Library/</string>
+				</dict>
+				<dict>
+					<key>pfm_description</key>
+					<string>One directory.</string>
+					<key>pfm_name</key>
+					<string>directory</string>
+					<key>pfm_repetition_max</key>
+					<integer>-1</integer>
+					<key>pfm_repetition_min</key>
+					<integer>0</integer>
+					<key>pfm_title</key>
+					<string>Directory</string>
+					<key>pfm_type</key>
+					<string>string</string>
+					<key>pfm_default</key>
+					<string>/System/</string>
+				</dict>
+				<dict>
+					<key>pfm_description</key>
+					<string>One directory.</string>
+					<key>pfm_name</key>
+					<string>directory</string>
+					<key>pfm_repetition_max</key>
+					<integer>-1</integer>
+					<key>pfm_repetition_min</key>
+					<integer>0</integer>
+					<key>pfm_title</key>
+					<string>Directory</string>
+					<key>pfm_type</key>
+					<string>string</string>
+					<key>pfm_default</key>
+					<string>/bin/</string>
+				</dict>
+				<dict>
+					<key>pfm_description</key>
+					<string>One directory.</string>
+					<key>pfm_name</key>
+					<string>directory</string>
+					<key>pfm_repetition_max</key>
+					<integer>-1</integer>
+					<key>pfm_repetition_min</key>
+					<integer>0</integer>
+					<key>pfm_title</key>
+					<string>Directory</string>
+					<key>pfm_type</key>
+					<string>string</string>
+					<key>pfm_default</key>
+					<string>/usr/sbin/</string>
+				</dict>
+			</array>
+			<key>pfm_targets</key>
+			<array>
+				<string>user-managed</string>
+				<string>system-managed</string>
+			</array>
+			<key>pfm_title</key>
+			<string>Folder Whitelist</string>
+			<key>pfm_type</key>
+			<string>array</string>
+		</dict>
+		<dict>
+			<key>pfm_description</key>
+			<string>Application path blacklist union policy keys.</string>
+			<key>pfm_name</key>
+			<string>pathBlackList-UPK</string>
+			<key>pfm_remove_duplicates</key>
+			<true/>
+			<key>pfm_targets</key>
+			<array>
+				<string>user-managed</string>
+				<string>system-managed</string>
+			</array>
+			<key>pfm_title</key>
+			<string>Application Path Blacklist Union Policy</string>
+			<key>pfm_type</key>
+			<string>union policy</string>
+			<key>pfm_upk_input_keys</key>
+			<array>
+				<string>pathBlackList-Raw</string>
+			</array>
+			<key>pfm_upk_output_name</key>
+			<string>pathBlackList</string>
+			<key>pfm_upk_output_type</key>
+			<string>array</string>
+		</dict>
+		<dict>
+			<key>pfm_description</key>
+			<string>Disable launching of Applications from specified folders.  Please note that when setting this preference, the "Restrict Applications" preference must also be set.  This setting only applies to Mac OS X 10.5 and later.</string>
+			<key>pfm_name</key>
+			<string>pathBlackList-Raw</string>
+			<key>pfm_subkeys</key>
+			<array>
+				<dict>
+					<key>pfm_description</key>
+					<string>One directory.</string>
+					<key>pfm_name</key>
+					<string>directory</string>
+					<key>pfm_repetition_max</key>
+					<integer>-1</integer>
+					<key>pfm_repetition_min</key>
+					<integer>0</integer>
+					<key>pfm_title</key>
+					<string>Directory</string>
+					<key>pfm_type</key>
+					<string>string</string>
+					<key>pfm_default</key>
+					<string>/Applications/Utilities/</string>
+				</dict>
+				<dict>
+					<key>pfm_description</key>
+					<string>One directory.</string>
+					<key>pfm_name</key>
+					<string>directory</string>
+					<key>pfm_repetition_max</key>
+					<integer>-1</integer>
+					<key>pfm_repetition_min</key>
+					<integer>0</integer>
+					<key>pfm_title</key>
+					<string>Directory</string>
+					<key>pfm_type</key>
+					<string>string</string>
+					<key>pfm_default</key>
+					<string>/Users/</string>
+				</dict>
+			</array>
+			<key>pfm_targets</key>
+			<array>
+				<string>user-managed</string>
+				<string>system-managed</string>
+			</array>
+			<key>pfm_title</key>
+			<string>Folder Blacklist</string>
+			<key>pfm_type</key>
+			<string>array</string>
+		</dict>
+	</array>
+	<key>pfm_title</key>
+	<string>Application Access</string>
+	<key>pfm_version</key>
+	<real>1</real>
+</dict>
+</plist>

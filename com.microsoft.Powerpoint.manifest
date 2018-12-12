@@ -1,0 +1,1813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>pfm_version</key>
+	<real>1.1</real>
+	<key>pfm_domain</key>
+	<string>com.microsoft.Powerpoint</string>
+	<key>pfm_description</key>
+	<string>Settings that affect the behavior of Microsoft PowerPoint</string>
+	<key>pfm_name</key>
+	<string>PowerPoint</string>
+	<key>pfm_title</key>
+	<string>Microsoft PowerPoint</string>
+	<key>pfm_subkeys</key>
+	<array>
+       <dict>
+            <key>pfm_description</key>
+            <string>Save PowerPoint files as:
+            -Microsoft PowerPoint 98 Presentation
+            -Microsoft PowerPoint 2007 XML Presentation
+            </string>
+            <key>pfm_name</key>
+            <string>14\Default Save\Default Save\Default Format</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Save PowerPoint files as</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+    </dict>
+    <dict>
+            <key>pfm_description</key>
+            <string>When saving a presentation that has updates from other authors. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\AskReviewChanges</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - AutoFormat Bullets</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Replace Internet and Network Paths with Hyperlinks as you type. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\AutoCorrect Hyperlinks</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - AutoFormat Internet And Network Paths As Hyperlinks</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Autofit body text to placeholder.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\AutoFit</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Autofit Body Text To Placeholder</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Enable auto formatting of bullet points. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\AutoFormatBullets</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - AutoFormat Bullets</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to allow background spell checking. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\Background spell checking</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Background Spell Checking</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to allow background spell checking. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\Background spell checking</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Background Spell Checking</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Warn before saving in a format where presentation elements are removed. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\CompatReportBinarySaveWarningEnabled</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Warn Before Saving In Incompatible Format</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to enable compatibility checking. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\CompatReport</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Compatibility Report</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to enable compatibility checking. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\CompatReport</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Compatibility Report</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the default view. Set to 1 to set PowerPoint to the default view.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\DefaultView</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Default View</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the default view. Set to 1 to set PowerPoint to the default view.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\DefaultView</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Default View</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to "Do not underline errors". Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\Do not underline errors</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Do Not Underline Errors</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to "Do not underline errors". Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\Do not underline errors</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Do Not Underline Errors</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to allow Drag and Drop. Set to 1 to enable the preferece. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\DragAndDrop</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Drag And Drop</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to allow Drag and Drop. Set to 1 to enable the preferece. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\DragAndDrop</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Drag And Drop</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to make Dynamic Guides Visible. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\DynamicGuidesVisible</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Dynamic Guides Visible</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to make Dynamic Guides Visible. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\DynamicGuidesVisible</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Dynamic Guides Visible</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>French Spelling Mode:
+            0 - Traditional and new spellings
+            1 - Traditional spelling
+            2 - New spelling
+            </string>
+            <key>pfm_name</key>
+            <string>14\Options\French Modes</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - French Modes</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+                    <integer>2</integer>
+            </array>
+            <key>pfm_default</key>
+            <string>0</string>
+        </dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to enable fast loads. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\Fast loads</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Fast Loads</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the frequency at which auto recovery saves documents. Set to the number of minutes at which auto recovery should save.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\FrequencyToSaveAutoRecoveryInfo</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Frequency To Save Auto Recovery Info</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>10</integer>
+		</dict>
+
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the frequency at which auto recovery saves documents. Set to the number of minutes at which auto recovery should save.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\FrequencyToSaveAutoRecoveryInfo</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Frequency To Save Auto Recovery Info</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>10</integer>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to make guides visibile. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\GuidesVisible</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Guides Visible</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to make guides visibile. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\GuidesVisible</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Guides Visible</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Hide Welcome Window</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\Hide Welcome Dialog</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Hide Welcome Window</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to ignore uppercase words. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\Ignore UPPERCASE words</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Ignore UPPERCASE words</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to ignore uppercase words. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\Ignore UPPERCASE words</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Ignore UPPERCASE words</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to ignore words with numbers. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\Ignore words with numbers</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Ignore words with numbers</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to ignore words with numbers. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\Ignore words with numbers</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Ignore words with numbers</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to use the metric ruler. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\MetricRuler</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Metric Ruler</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to use the metric ruler. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\MetricRuler</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Metric Ruler</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to show the most recently used option under the file menu. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\MRUListActive</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - MRU List Active</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to show the most recently used option under the file menu. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\MRUListActive</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - MRU List Active</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Enable Macro Virus Protection</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options:MacroVirusProtection</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Macro Virus Protection</string>
+            <key>pfm_type</key>
+            <string>string</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+            <key>pfm_default</key>
+            <string>1</string>
+        </dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference for no user name. Set to 1 to set the preference. Set to 0 to set the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\NoUserName</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - No User Name</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference for no user name. Set to 1 to set the preference. Set to 0 to set the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\NoUserName</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - No User Name</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the number of undos that are allowed</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\Number of Undos</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Number of Undos</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>20</integer>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the number of undos that are allowed</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\Number of Undos</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Number of Undos</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>20</integer>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to prompt for file properties. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\PromptForFileProperties</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Prompt For File Properties</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to make rulers visible. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\RulersVisible</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Rulers Visible</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference for the DPI of which graphics should be set when a PowerPoint document is saved. Set to the number of DPI that should be set in the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\Save graphics dpi</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Save Graphics DPI</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Specify the image quality when saving documents. 
+            
+            Specify the quality desired: 
+            
+            	0 = Least
+            	1 = Low
+            	2 = Medium
+            	3 = High
+            	4 = Best</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\Save graphics image quality</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Save Graphics Image Quality</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>3</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+               	    <integer>2</integer>
+                    <integer>3</integer>
+               	    <integer>4</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Check the preference to specify screen resolution to use when saving graphics. Set to 1 to set the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\Save graphics screen size</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Save Graphics Screen Size</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+ 		<dict>
+            <key>pfm_description</key>
+            <string>Always mirror displays when switching to another view or application. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\Presenter Tools Mirror Displays</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Mirror Displays When Switching Application Or View</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Ribbon Color
+            1 - Powerpoint Orange
+            2 - Graphite
+            </string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\Ribbon Color</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Ribbon Color</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>1</integer>
+                    <integer>2</integer>
+            </array>
+            <key>pfm_default</key>
+            <integer>2</integer>
+        </dict>
+         <dict>
+            <key>pfm_description</key>
+            <string>Should the Ribbon be enabled?
+                0 - No
+                1 - Yes
+            </string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\Ribbon Enabled</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Turn on Ribbon</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+         <dict>
+            <key>pfm_description</key>
+            <string>Should the ribbon expand when a presentation opens?
+                0 - No
+                1 - Yes
+            </string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\Ribbon Expanded</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Expand Ribbon When Presentation Opens</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Should the group titles be hidden?
+                0 - No
+                1 - Yes
+            </string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\Ribbon HidePodTitles</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Hide Group Titles</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+
+            <key>pfm_default</key>
+            <integer>1</integer>
+        </dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to make rulers visible. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\RulersVisible</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Rulers Visible</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+
+		<dict>
+            <key>pfm_description</key>
+            <string>Check the preference to specify screen resolution to use when saving graphics. Set to 1 to set the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\Save graphics screen size</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Save Graphics Screen Size</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to save only the current slide as a graphic. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\Save only current slide graphics</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Save Only Current Slide Graphics</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to save only the current slide as a graphic. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\Save only current slide graphics</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Save Only Current Slide Graphics</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to save Auto Recovery info. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\SaveAutoRecoveryInfo</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Save Auto Recovery Info</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to save Auto Recovery info. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\SaveAutoRecoveryInfo</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Save Auto Recovery Info</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Specify the preference to save preview picture with new documents.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\SavePreview</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Save Preview Picture with New Documents</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Include full text search information. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\SaveFullTextSearchInfo</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Save Full Text Search Information</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Specify the preference to save preview picture with new documents. Set to 1 to set the preference. Set to 0 to set the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\SavePreview</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Save Preview Picture with New Documents</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+        		<dict>
+            <key>pfm_description</key>
+            <string>Show AutoCorrect Options Buttons. Set to 1 to set the preference. Set to 0 to set the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\Show AutoCorrect Options Buttons</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Show AutoCorrect Options Buttons</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Specify the preference to show the outline formatting. Set to 1 to set the preference. Set to 0 to set the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\Show Outline Formatting</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Show Outline Formatting</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Specify the preference to show the outline formatting. Set to 1 to set the preference. Set to 0 to set the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\Show Outline Formatting</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Show Outline Formatting</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Specify the preference to show outline icons. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\Show Outline Icons</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Show Outline Icons</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Specify the preference to show outline icons. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\Show Outline Icons</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Show Outline Icons</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Specify the preference to show Dynamic Guides on Centers. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\ShowDynamicGuidesOnCenters</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Show Dynamic Guides On Centers</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Specify the preference to show Dynamic Guides on Centers. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\ShowDynamicGuidesOnCenters</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Show Dynamic Guides On Centers</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Specify the size of the most recently used items list. Set to the number of items that should be displayed in the menu.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\SizeOfMRUList</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Size Of Most Recently Used List</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>10</integer>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Specify the size of the most recently used items list. Set to the number of items that should be displayed in the menu.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\SizeOfMRUList</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Size Of Most Recently Used List</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>10</integer>
+		</dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Set the preference to use smart cut and paste. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\SmartCutPaste</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Smart Cut Paste</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Set the preference to use smart quotes. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\SmartQuotes</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Smart Quotes</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to start a slideshow when PowerPoint is started. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Options\Options\StartSlideShowWhenStarted</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Start Slide Show When Started</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>0</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+                <dict>
+            <key>pfm_description</key>
+            <string>Always suggest spelling corrections. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\Suggest Always</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Always Suggest Corrections</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Use German post-reform spelling rules. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\Use German reform spelling rules</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Use German Post Reform Spelling Rules</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Vertical Ruler. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\VerticalRuler</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Display Vertical Ruler</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+        <dict>
+            <key>pfm_description</key>
+            <string>Automatically Select Entire Word Preference. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Options\Options\WordSelection</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Automatically Select Entire Word</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to show the HI toolbar. Set to true to enable the preference. Set to false to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Toolbars\Show_HIToolbar</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Show_HIToolbar</string>
+            <key>pfm_type</key>
+            <string>boolean</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <true/>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the preference to show the HI toolbar. Set to true to enable the preference. Set to false to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Toolbars\Show_HIToolbar</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Show_HIToolbar</string>
+            <key>pfm_type</key>
+            <string>boolean</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <true/>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the toolbox effects preference to auto trigger. Set to true to enable the preference. Set to false to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Toolbox:Effects\AutoTrigger</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Toolbox Effects: Auto Trigger</string>
+            <key>pfm_type</key>
+            <string>boolean</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <false/>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the toolbox effects preference to auto trigger. Set to true to enable the preference. Set to false to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Toolbox:Effects\AutoTrigger</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Toolbox Effects: Auto Trigger</string>
+            <key>pfm_type</key>
+            <string>boolean</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <false/>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the toolbox effects preference to set the fade transparency. Valid values are 1-100.</string>
+            <key>pfm_name</key>
+            <string>2008\Toolbox:Effects\FadeTransparency</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Toolbox Effects: Fade Transparency</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>67</integer>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the toolbox effects preference to set the fade transparency. Valid values are 1-100.</string>
+            <key>pfm_name</key>
+            <string>14\Toolbox:Effects\FadeTransparency</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Toolbox Effects: Fade Transparency</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>67</integer>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the toolbox effects preference to enable transition effects. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Toolbox:Effects\TransitionEffect</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Toolbox Effects: Transition Effect</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the toolbox effects preference to enable transition effects. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Toolbox:Effects\TransitionEffect</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Toolbox Effects: Transition Effect</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the toolbox effects preference to enable trigger actions.</string>
+            <key>pfm_name</key>
+            <string>2008\Toolbox:Effects\TriggerAction</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Toolbox Effects: Trigger Action</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the toolbox effects preference to enable trigger actions.</string>
+            <key>pfm_name</key>
+            <string>14\Toolbox:Effects\TriggerAction</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Toolbox Effects: Trigger Action</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the toolbox effect trigger delay preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Toolbox:Effects\TriggerDelay</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Toolbox Effects: Trigger Delay</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>5</integer>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the toolbox effect trigger delay preference.</string>
+            <key>pfm_name</key>
+            <string>14\Toolbox:Effects\TriggerDelay</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Toolbox Effects: Trigger Delay</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>5</integer>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the toolbox preference to enable animation effects. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>2008\Toolbox\CSAnimationEffect</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2008 - Toolbox: CSAnimationEffect</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+		<dict>
+            <key>pfm_description</key>
+            <string>Set the toolbox preference to enable animation effects. Set to 1 to enable the preference. Set to 0 to disable the preference.</string>
+            <key>pfm_name</key>
+            <string>14\Toolbox\CSAnimationEffect</string>
+            <key>pfm_title</key>
+            <string>PowerPoint 2011 - Toolbox: CSAnimationEffect</string>
+            <key>pfm_type</key>
+            <string>integer</string>
+            <key>pfm_targets</key>
+            <array>
+                <string>user</string>
+            </array>
+            <key>pfm_default</key>
+            <integer>1</integer>
+            <key>pfm_range_list</key>
+            <array>
+                    <integer>0</integer>
+                    <integer>1</integer>
+            </array>
+		</dict>
+	</array>
+</dict>
+</plist>

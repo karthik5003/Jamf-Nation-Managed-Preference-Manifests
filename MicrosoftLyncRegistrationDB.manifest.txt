@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>pfm_version</key>
+		<real>1.0</real>
+		<key>pfm_domain</key>
+		<string>MicrosoftLyncRegistrationDB</string>
+		<key>pfm_description</key>
+		<string>Settings that affect the behavior of Microsoft Lync.</string>
+		<key>pfm_name</key>
+		<string>Lync</string>
+		<key>pfm_title</key>
+		<string>Microsoft Lync</string>
+		<key>pfm_subkeys</key>
+		<array>
+			<dict>
+				<key>pfm_description</key>
+				<string>This is a required key for applying Lync preferences.</string>
+				<key>pfm_name</key>
+				<string>Backward_Compatible_Version</string>
+				<key>pfm_title</key>
+				<string>Backward Compatible Version</string>
+				<key>pfm_type</key>
+				<string>integer</string>
+				<key>pfm_targets</key>
+				<array>
+					<string>system-managed</string>
+				</array>
+				<key>pfm_default</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>pfm_description</key>
+				<string>This is a required key for applying Lync preferences.</string>
+				<key>pfm_name</key>
+				<string>Current_Version</string>
+				<key>pfm_title</key>
+				<string>Current Version</string>
+				<key>pfm_type</key>
+				<string>integer</string>
+				<key>pfm_targets</key>
+				<array>
+					<string>system-managed</string>
+				</array>
+				<key>pfm_default</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>pfm_description</key>
+				<string>This is a required key for applying Lync system level preferences.</string>
+				<key>pfm_name</key>
+				<string>hkey_local_machine\</string>
+				<key>pfm_title</key>
+				<string>hkey_local_machine\</string>
+				<key>pfm_type</key>
+				<string>string</string>
+				<key>pfm_targets</key>
+				<array>
+					<string>system-managed</string>
+				</array>
+				<key>pfm_default</key>
+				<string>&lt;&lt;MacRegNoValue&gt;&gt;</string>
+			</dict>
+			<dict>
+				<key>pfm_description</key>
+				<string>This is a required key for applying Lync system level preferences.</string>
+				<key>pfm_name</key>
+				<string>hkey_local_machine\software\</string>
+				<key>pfm_title</key>
+				<string>hkey_local_machine\software\</string>
+				<key>pfm_type</key>
+				<string>string</string>
+				<key>pfm_targets</key>
+				<array>
+					<string>system-managed</string>
+				</array>
+				<key>pfm_default</key>
+				<string>&lt;&lt;MacRegNoValue&gt;&gt;</string>
+			</dict>
+			<dict>
+				<key>pfm_description</key>
+				<string>This is a required key for applying Lync system level preferences.</string>
+				<key>pfm_name</key>
+				<string>hkey_local_machine\software\policies\</string>
+				<key>pfm_title</key>
+				<string>hkey_local_machine\software\policies\</string>
+				<key>pfm_type</key>
+				<string>string</string>
+				<key>pfm_targets</key>
+				<array>
+					<string>system-managed</string>
+				</array>
+				<key>pfm_default</key>
+				<string>&lt;&lt;MacRegNoValue&gt;&gt;</string>
+			</dict>
+			<dict>
+				<key>pfm_description</key>
+				<string>This is a required key for applying Lync system level preferences.</string>
+				<key>pfm_name</key>
+				<string>hkey_local_machine\software\policies\microsoft\</string>
+				<key>pfm_title</key>
+				<string>hkey_local_machine\software\policies\microsoft\</string>
+				<key>pfm_type</key>
+				<string>string</string>
+				<key>pfm_targets</key>
+				<array>
+					<string>system-managed</string>
+				</array>
+				<key>pfm_default</key>
+				<string>&lt;&lt;MacRegNoValue&gt;&gt;</string>
+			</dict>
+			<dict>
+				<key>pfm_description</key>
+				<string>This is a required key for applying Lync system level preferences.</string>
+				<key>pfm_name</key>
+				<string>hkey_local_machine\software\policies\microsoft\communicator\</string>
+				<key>pfm_title</key>
+				<string>hkey_local_machine\software\policies\microsoft\communicator\</string>
+				<key>pfm_type</key>
+				<string>string</string>
+				<key>pfm_targets</key>
+				<array>										
+					<string>system-managed</string>
+				</array>
+				<key>pfm_default</key>
+				<string>&lt;&lt;MacRegNoValue&gt;&gt;</string>
+			</dict>
+			<dict>
+				<key>pfm_description</key>
+				<string>Can be set to download the Address Book only, use Address Book web search only, or use both:
+            0 = WebSearchAndFileDownload
+			1 = WebSearchOnly
+			2 = FileDownloadOnly
+			</string>
+				<key>pfm_name</key>
+				<string>hkey_local_machine\software\policies\microsoft\communicator\absusage</string>
+				<key>pfm_title</key>
+				<string>Address Book Search Usage</string>
+				<key>pfm_type</key>
+				<string>integer</string>
+				<key>pfm_targets</key>
+				<array>
+					<string>system-managed</string>
+				</array>
+				<key>pfm_range_list</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+					<integer>2</integer>
+				</array>
+				<key>pfm_default</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>pfm_description</key>
+				<string>Specify how Lync identifies the transport and server to use during sign-in. If you enable this policy setting, you must specify serveraddressinternal and serveraddressexternal:
+            0 = automatic server detection (default)
+			1 = manual server configuration
+			</string>
+				<key>pfm_name</key>
+				<string>hkey_local_machine\software\policies\microsoft\communicator\configurationmode</string>
+				<key>pfm_title</key>
+				<string>Configuration Mode</string>
+				<key>pfm_type</key>
+				<string>integer</string>
+				<key>pfm_targets</key>
+				<array>
+					<string>system-managed</string>
+				</array>
+				<key>pfm_range_list</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+				</array>
+				<key>pfm_default</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>pfm_description</key>
+				<string>Enables or disables publishing calendar presence:
+            0 (or not set) = Calendar data is published as per the option set in the Personal Tab (Update my status based on calendar data). The user will switch to “In a meeting” based on calendar data. (default)
+			1 =  Feature is disabled and Calendar data is not published; UI is disabled. The user will not switch to “In a meeting” based on calendar data.
+			</string>
+				<key>pfm_name</key>
+				<string>hkey_local_machine\software\policies\microsoft\communicator\disablecalendarpresence</string>
+				<key>pfm_title</key>
+				<string>Disable Calendar Presence</string>
+				<key>pfm_type</key>
+				<string>integer</string>
+				<key>pfm_targets</key>
+				<array>
+					<string>system-managed</string>
+				</array>
+				<key>pfm_range_list</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+				</array>
+				<key>pfm_default</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>pfm_description</key>
+				<string>Enables or disables emoticons in instant messages:
+            0 (or not present) = enabled (default)
+			1 = disabled
+			</string>
+				<key>pfm_name</key>
+				<string>hkey_local_machine\software\policies\microsoft\communicator\disableemoticons</string>
+				<key>pfm_title</key>
+				<string>Disable Emoticons</string>
+				<key>pfm_type</key>
+				<string>integer</string>
+				<key>pfm_targets</key>
+				<array>
+					<string>system-managed</string>
+				</array>
+				<key>pfm_range_list</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+				</array>
+				<key>pfm_default</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>pfm_description</key>
+				<string>Enables or disables publishing free/busy information:
+            0 = Enabled (default)
+			1= Disabled
+			</string>
+				<key>pfm_name</key>
+				<string>hkey_local_machine\software\policies\microsoft\communicator\disablefreebusyinfo</string>
+				<key>pfm_title</key>
+				<string>Disable Free/Busy Info</string>
+				<key>pfm_type</key>
+				<string>integer</string>
+				<key>pfm_targets</key>
+				<array>
+					<string>system-managed</string>
+				</array>
+				<key>pfm_range_list</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+				</array>
+				<key>pfm_default</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>pfm_description</key>
+				<string>Enables or disables video functionalities:
+            0 (or not present) = Enabled (default)
+			1= Disabled
+			</string>
+				<key>pfm_name</key>
+				<string>hkey_local_machine\software\policies\microsoft\communicator\disablepc2pcvideo</string>
+				<key>pfm_title</key>
+				<string>Disable PC to PC Video</string>
+				<key>pfm_type</key>
+				<string>integer</string>
+				<key>pfm_targets</key>
+				<array>
+					<string>system-managed</string>
+				</array>
+				<key>pfm_range_list</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+				</array>
+				<key>pfm_default</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>pfm_description</key>
+				<string>Enables or disables publishing call presence:
+			0 = Phone call (3PCC, VOIP, and Conference) states are published
+			1 = Phone call states are not published to presence (default)
+			</string>
+				<key>pfm_name</key>
+				<string>hkey_local_machine\software\policies\microsoft\communicator\disablephonepresence</string>
+				<key>pfm_title</key>
+				<string>Disable Call Presence</string>
+				<key>pfm_type</key>
+				<string>integer</string>
+				<key>pfm_targets</key>
+				<array>
+					<string>system-managed</string>
+				</array>
+				<key>pfm_range_list</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+				</array>
+				<key>pfm_default</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>pfm_description</key>
+				<string>Enables or disables server check during sign in:
+			0 = Enable server check (default)
+			1 = Disable server check
+			</string>
+				<key>pfm_name</key>
+				<string>hkey_local_machine\software\policies\microsoft\communicator\disableservercheck</string>
+				<key>pfm_title</key>
+				<string>Disable Server Check</string>
+				<key>pfm_type</key>
+				<string>integer</string>
+				<key>pfm_targets</key>
+				<array>
+					<string>system-managed</string>
+				</array>
+				<key>pfm_range_list</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+				</array>
+				<key>pfm_default</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>pfm_description</key>
+				<string>Enables or disables publishing the presence status Appear Offline after sign in:
+			0 = Not set (default)
+			1 = User can publish an Appear Offline state when they are still active on an endpoint.
+			</string>
+				<key>pfm_name</key>
+				<string>hkey_local_machine\software\policies\microsoft\communicator\enableappearoffline</string>
+				<key>pfm_title</key>
+				<string>Disable Appear Offline</string>
+				<key>pfm_type</key>
+				<string>integer</string>
+				<key>pfm_targets</key>
+				<array>
+					<string>system-managed</string>
+				</array>
+				<key>pfm_range_list</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+				</array>
+				<key>pfm_default</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>pfm_description</key>
+				<string>Enables or disables hyperlinks in instant messages:
+			0 = Disabled
+			1 = Enables (default)
+			</string>
+				<key>pfm_name</key>
+				<string>hkey_local_machine\software\policies\microsoft\communicator\enableurl</string>
+				<key>pfm_title</key>
+				<string>Disable Hyperlinks in IM</string>
+				<key>pfm_type</key>
+				<string>integer</string>
+				<key>pfm_targets</key>
+				<array>
+					<string>system-managed</string>
+				</array>
+				<key>pfm_range_list</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+				</array>
+				<key>pfm_default</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>pfm_description</key>
+				<string>In high security mode: TCP transport mode is disabled, and only NTLM / Kerberos / certificate authentication is enabled.
+			In medium security mode: Under TLS, all authentication modes are enabled (above ones + basic &amp; digest). Under TCP, only NTLM / Kerberos / certificate authentication is enabled.
+			In low security mode: All authentication modes are enabled under both TCP and TLS.
+			0 = Security is low
+			1 = Security is high (default)
+			2 = Security is medium
+			</string>
+				<key>pfm_name</key>
+				<string>hkey_local_machine\software\policies\microsoft\communicator\enablesiphighsecuritymode</string>
+				<key>pfm_title</key>
+				<string>Disable Free/Busy Info</string>
+				<key>pfm_type</key>
+				<string>integer</string>
+				<key>pfm_targets</key>
+				<array>
+					<string>system-managed</string>
+				</array>
+				<key>pfm_range_list</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+					<integer>2</integer>
+				</array>
+				<key>pfm_default</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>pfm_description</key>
+				<string>Indicates the maximum number of contacts a user is allowed to have. The maximum contacts can be set to any integer value between 0 and 1000, inclusive. This setting does not affect contacts already added, but if the value you set is less than or equal to the number of contacts you already have, it prevents the user from adding any contacts:
+			MIN 0
+			MAX 1000 (default)
+			</string>
+				<key>pfm_name</key>
+				<string>hkey_local_machine\software\policies\microsoft\communicator\maximumnumberofcontacts</string>
+				<key>pfm_title</key>
+				<string>Maximum Number of Contacts</string>
+				<key>pfm_type</key>
+				<string>integer</string>
+				<key>pfm_targets</key>
+				<array>
+					<string>system-managed</string>
+				</array>
+				<key>pfm_default</key>
+				<integer>1000</integer>
+			</dict>
+			<dict>
+				<key>pfm_description</key>
+				<string>If you enable configurationmode, you must configure this setting, which specifies the server name or IP address used when clients connect from inside the organization’s firewall.
+			Note:  This is an example of per-computer setting. Your preference settings will include the following keys:
+				Backward_Compatible_Version
+				Current_Version
+				hkey_local_machine\
+				hkey_local_machine\software\
+				hkey_local_machine\software\policies\
+				hkey_local_machine\software\policies\microsoft\
+				hkey_local_machine\software\policies\microsoft\communicator\
+				hkey_local_machine\software\policies\microsoft\communicator\configurationmode
+				hkey_local_machine\software\policies\microsoft\communicator\serveraddressinternal
+			</string>
+				<key>pfm_name</key>
+				<string>hkey_local_machine\software\policies\microsoft\communicator\serveraddressinternal</string>
+				<key>pfm_title</key>
+				<string>Internal Server Name or IP Address</string>
+				<key>pfm_type</key>
+				<string>string</string>
+				<key>pfm_targets</key>
+				<array>
+					<string>system-managed</string>
+				</array>
+				<key>pfm_default</key>
+				<string/>
+			</dict>
+			<dict>
+				<key>pfm_description</key>
+				<string>If you enable configurationmode, you must configure this setting, which specifies the server name or IP address used by clients and federated contacts when connecting from outside the external firewall.
+			Note:  This is an example of per-user setting. You preference settings will include the following keys:
+				hkey_local_machine\software\policies\
+				hkey_local_machine\software\policies\microsoft\
+				hkey_local_machine\software\policies\microsoft\communicator\
+				hkey_local_machine\software\policies\microsoft\communicator\configurationmode
+				hkey_local_machine\software\policies\microsoft\communicator\serveraddressexternal
+			</string>
+				<key>pfm_name</key>
+				<string>hkey_local_machine\software\policies\microsoft\communicator\serveraddressexternal</string>
+				<key>pfm_title</key>
+				<string>External Server Name or IP Address</string>
+				<key>pfm_type</key>
+				<string>string</string>
+				<key>pfm_targets</key>
+				<array>
+					<string>system-managed</string>
+				</array>
+				<key>pfm_default</key>
+				<string/>
+			</dict>
+			<dict>
+				<key>pfm_description</key>
+				<string>Limit bandwidth used by video to this bit rate</string>
+				<key>pfm_name</key>
+				<string>hkey_local_machine\software\policies\microsoft\communicator\videobitrate</string>
+				<key>pfm_title</key>
+				<string>Video Bit Rate</string>
+				<key>pfm_type</key>
+				<string>integer</string>
+				<key>pfm_targets</key>
+				<array>
+					<string>system-managed</string>
+				</array>
+				<key>pfm_default</key>
+				<integer>2000</integer>
+			</dict>
+		</array>
+	</dict>
+</plist>

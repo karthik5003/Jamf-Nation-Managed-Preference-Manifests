@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>pfm_version</key>
+        <real>1.1</real>
+        <key>pfm_domain</key>
+        <string>com.apple.TimeMachine</string>
+        <key>pfm_description</key>
+        <string>Settings for Apple Time Machine</string>
+        <key>pfm_title</key>
+        <string>Apple Time Machine</string>
+        <key>pfm_subkeys</key>
+        <array>
+            <dict>
+                <key>pfm_description</key>
+                <string>This value will control the option to prompt to use attached drives for Time Machine.</string>
+                <key>pfm_name</key>
+                <string>DoNotOfferNewDisksForBackup</string>
+                <key>pfm_title</key>
+                <string>Do Not Offer New Disks for Backup</string>
+                <key>pfm_type</key>
+                <string>boolean</string>
+                <key>pfm_targets</key>
+                <array>
+                    <string>user</string>
+                    <string>user-managed</string>
+                    <string>system-managed</string>
+                </array>
+                <key>pfm_default</key>
+                <false/>
+            </dict>
+            <dict>
+                <key>pfm_description</key>
+                <string>This value will control the whether or not Time Machine is enabled.</string>
+                <key>pfm_name</key>
+                <string>AutoBackup</string>
+                <key>pfm_title</key>
+                <string>Time Machine Backup</string>
+                <key>pfm_type</key>
+                <string>boolean</string>
+                <key>pfm_targets</key>
+                <array>
+                    <string>user</string>
+                    <string>user-managed</string>
+                    <string>system-managed</string>
+                </array>
+                <key>pfm_default</key>
+                <true/>
+            </dict>
+            <dict>
+                <key>pfm_description</key>
+                <string>This value will control the maximum size of a file Time Machine will backups. 0 denotes unlimited.</string>
+                <key>pfm_name</key>
+                <string>MaxSize</string>
+                <key>pfm_title</key>
+                <string>Maximum Size</string>
+                <key>pfm_type</key>
+                <string>integer</string>
+                <key>pfm_targets</key>
+                <array>
+                    <string>user</string>
+                    <string>user-managed</string>
+                    <string>system-managed</string>
+                </array>
+                <key>pfm_default</key>
+                <integer>0</integer>
+            </dict>
+            <dict>
+                <key>pfm_description</key>
+                <string>This value will control whether System Files should be skipped in the backup.</string>
+                <key>pfm_name</key>
+                <string>SkipSystemFiles</string>
+                <key>pfm_title</key>
+                <string>Skip System Files</string>
+                <key>pfm_type</key>
+                <string>boolean</string>
+                <key>pfm_targets</key>
+                <array>
+                    <string>user</string>
+                    <string>user-managed</string>
+                    <string>system-managed</string>
+                </array>
+                <key>pfm_default</key>
+                <false/>
+            </dict>
+            <dict>
+                <key>pfm_description</key>
+                <string>This value will control whether the user should be alerted when backups are deleted.</string>
+                <key>pfm_name</key>
+                <string>AlwaysShowDeletedBackupsWarning</string>
+                <key>pfm_title</key>
+                <string>Show Deleted Backups Warning</string>
+                <key>pfm_type</key>
+                <string>boolean</string>
+                <key>pfm_targets</key>
+                <array>
+                    <string>user</string>
+                    <string>user-managed</string>
+                    <string>system-managed</string>
+                </array>
+                <key>pfm_default</key>
+                <false/>
+            </dict>
+            <dict>
+                <key>pfm_description</key>
+                <string>List of file paths that will be skipped by the backup.</string>
+                <key>pfm_name</key>
+                <string>ExcludeByPath</string>
+                <key>pfm_title</key>
+                <string>Skip By File</string>
+                <key>pfm_type</key>
+                <string>array</string>
+                <key>pfm_targets</key>
+                <array>
+                    <string>user</string>
+                    <string>user-managed</string>
+                    <string>system-managed</string>
+                </array>
+                <key>pfm_subkeys</key>
+                <array>
+                    <dict>
+                        <key>pfm_description</key>
+                        <string>Single Path Entry</string>
+                        <key>pfm_name</key>
+                        <string>pathEntry</string>
+                        <key>pfm_title</key>
+                        <string>Path Entry</string>
+                        <key>pfm_type</key>
+                        <string>string</string>
+                        <key>pfm_targets</key>
+                        <array>
+                            <string>user</string>
+                            <string>user-managed</string>
+                            <string>system-managed</string>
+                        </array>
+                    </dict>
+                </array>
+            </dict>
+            <dict>
+                <key>pfm_description</key>
+                <string>List of directory paths that will be skipped by the backup.  All directory contents will be omitted.</string>
+                <key>pfm_name</key>
+                <string>SkipPaths</string>
+                <key>pfm_title</key>
+                <string>Skip By Path</string>
+                <key>pfm_type</key>
+                <string>array</string>
+                <key>pfm_targets</key>
+                <array>
+                    <string>user</string>
+                    <string>user-managed</string>
+                    <string>system-managed</string>
+                </array>
+                <key>pfm_subkeys</key>
+                <array>
+                    <dict>
+                        <key>pfm_description</key>
+                        <string>Single Path Entry</string>
+                        <key>pfm_name</key>
+                        <string>pathEntry</string>
+                        <key>pfm_title</key>
+                        <string>Path Entry</string>
+                        <key>pfm_type</key>
+                        <string>string</string>
+                        <key>pfm_targets</key>
+                        <array>
+                            <string>user</string>
+                            <string>user-managed</string>
+                            <string>system-managed</string>
+                        </array>
+                    </dict>
+                </array>
+            </dict>
+            <dict>
+                <key>pfm_description</key>
+                <string>This value will control whether the computer must be plugged into AC power or not.</string>
+                <key>pfm_name</key>
+                <string>RequiresACPower</string>
+                <key>pfm_title</key>
+                <string>Require AC Power</string>
+                <key>pfm_type</key>
+                <string>boolean</string>
+                <key>pfm_targets</key>
+                <array>
+                    <string>user</string>
+                    <string>user-managed</string>
+                    <string>system-managed</string>
+                </array>
+                <key>pfm_default</key>
+                <false/>
+            </dict>
+    </array>
+</dict>
+</plist>
